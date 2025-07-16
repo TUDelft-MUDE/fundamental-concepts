@@ -1,3 +1,3 @@
-# Welcome to the MUDE Fundamental concept
+# Welcome to the MUDE *Fundamental concepts* book
 
-This books contains prerequisite knowledge which might be useful when dealing with MUDE topics!
+This book contains prerequisite knowledge which might be useful when dealing with MUDE topics!
