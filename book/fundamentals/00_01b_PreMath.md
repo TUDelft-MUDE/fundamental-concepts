@@ -36,7 +36,7 @@ The column space (or range space) of a matrix $A$ of size  $m\times n$, is the s
 For example, let $A=\begin{bmatrix} 1&1\\1&2\\1&3 \end{bmatrix}$. Then the $\mathcal{R}(A)$ is a subspace in $\mathbb{R}^{3}$, and its elements can be written as linear combination of the two column vectors of $A$:
 
 $$
-\begin{bmatrix} 1\\1\\1 \end{bmatrix}, ~ \text{and} ~ \begin{bmatrix} 1\\2\\3 \end{bmatrix}. 
+\begin{bmatrix} 1\\1\\1 \end{bmatrix}, ~ rm{and} ~ \begin{bmatrix} 1\\2\\3 \end{bmatrix}. 
 $$ 
 
 In this example, the dimension of $\mathcal{R}(A)$ is 2 becouse $A$ has two independent columns. 

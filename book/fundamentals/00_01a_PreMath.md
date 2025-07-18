@@ -34,7 +34,7 @@ $$
 
 In other words, in symmetric matrices,  $a_{ij}=a_{ji}$.
 
-*Diagonal matrices*: The diagonal entries of an $m \times m$ matrix $A$, with entries $(A)_{ij}=a_{ij}$, are $a_{11}, a_{22}, \ldots, a_{mm}$. Matrix $A$ is called a diagonal matrix if all other entries are equal to zero. Such a matrix will be denoted as $A= \text{diag}(a_{11}, a_{22}, \ldots, a_{mm})$. For example, the following matrix is a diagonal matrix: 
+*Diagonal matrices*: The diagonal entries of an $m \times m$ matrix $A$, with entries $(A)_{ij}=a_{ij}$, are $a_{11}, a_{22}, \ldots, a_{mm}$. Matrix $A$ is called a diagonal matrix if all other entries are equal to zero. Such a matrix will be denoted as $A= rm{diag}(a_{11}, a_{22}, \ldots, a_{mm})$. For example, the following matrix is a diagonal matrix: 
 
 $$ 
 A= \left[ \begin{array}{cccc} 1 & 0& 0& 0 \\ 0 & 2& 0& 0 \\ 0 & 0& 5& 0 \\ 0 & 0& 0& 3 \\ \end{array} \right].  
@@ -62,7 +62,7 @@ Consequently, also $\left(\mathrm{A}^T W\mathrm{A} \right) $ and $\left(\mathrm{
 The trace is a function that is only defined on square matrices. The  trace of an square matrix $A$ of size $m \times m$ , denoted as ${\rm trace}(A)$, is defined to be the sum of all its diagonal entries, ${\rm trace}(A)= \sum_{i=1}^{m} a_{ii}.$   For example: 
 
 $$ 
-\text{trace}\Big( \left[ \begin{array}{ccc} 4 & 2 & 1 \\ 2 & 3 & 1 \\ 1 & 1 & 2 \\ \end{array} \right] \Big)= 4+3+2=9. 
+rm{trace}\Big( \left[ \begin{array}{ccc} 4 & 2 & 1 \\ 2 & 3 & 1 \\ 1 & 1 & 2 \\ \end{array} \right] \Big)= 4+3+2=9. 
 $$ 
 
 ## Linear Combination
@@ -76,7 +76,7 @@ $$
 $$
 
 ## Rank of a matrix
-The maximum number of linearly independent column vectors of a matrix $A$ is called the rank of $A$, and it is denoted as $\text{rank}(A)$.  The maximum number of linearly independent column vectors of a matrix always equals its maximum number of linearly independent row vectors. A matrix $A$ of size $m \times n$ is said to have full row rank if $\text{rank}(A)=m$ and full column rank if $\text{rank}(A)=n$ . The matrix is said to have a rank deficiency if $ \text{rank}(A) < \text{min}(m,n) $.  
+The maximum number of linearly independent column vectors of a matrix $A$ is called the rank of $A$, and it is denoted as $rm{rank}(A)$.  The maximum number of linearly independent column vectors of a matrix always equals its maximum number of linearly independent row vectors. A matrix $A$ of size $m \times n$ is said to have full row rank if $rm{rank}(A)=m$ and full column rank if $rm{rank}(A)=n$ . The matrix is said to have a rank deficiency if $ rm{rank}(A) < rm{min}(m,n) $.  
 
 ## Singular matrices 
 Square matrices with a rank deficiency are called singular. Alternatively, if a square matrix of size $m \times m$ has a rank equal to $m$, the matrix is called nonsingular. 

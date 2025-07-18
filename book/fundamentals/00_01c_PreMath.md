@@ -67,37 +67,37 @@ In that case $\mathrm{y}$ is an element of the range space of $\mathrm{A}$: $\ma
 
 For a consistent system of equations it is always possible to find a solution $x$ such that $\mathrm{y}=\mathrm{A}\mathrm{x}$. If it is not possible to find a solution, the system is called inconsistent.
 
-### Consistency is guaranteed if $\text{rank}(\mathrm{A}) = m$
+### Consistency is guaranteed if $\rm{rank}(\mathrm{A}) = m$
 
-Explanation: $ \mathrm{y} \in \mathbb{R}^{m}$ and the system is consistent if  $ \mathrm{y} \in \mathcal{R}(\mathrm{A}) $, hence consistency is guaranteed if $\mathcal{R}(\mathrm{A})=\mathbb{R}^{m}$. This means that the columns of $\mathrm{A}$ must span the complete space of reals $\mathbb{R}^{m}$, which is true if $\text{rank}(\mathrm{A})  = m$.
+Explanation: $ \mathrm{y} \in \mathbb{R}^{m}$ and the system is consistent if  $ \mathrm{y} \in \mathcal{R}(\mathrm{A}) $, hence consistency is guaranteed if $\mathcal{R}(\mathrm{A})=\mathbb{R}^{m}$. This means that the columns of $\mathrm{A}$ must span the complete space of reals $\mathbb{R}^{m}$, which is true if $\rm{rank}(\mathrm{A})  = m$.
 
-If $\text{rank}(\mathrm{A}) < m$, the system may or may not be consistent, this depends then on the actual entries of the vector $\mathrm{y}$.
+If $\rm{rank}(\mathrm{A}) < m$, the system may or may not be consistent, this depends then on the actual entries of the vector $\mathrm{y}$.
 
 ## Unique solution
 
-A consistent system has a unique solution if and only if the column vectors of matrix $\mathrm{A}$ are independent, i.e. if $ \text{rank}(\mathrm{A}) = n$.
+A consistent system has a unique solution if and only if the column vectors of matrix $\mathrm{A}$ are independent, i.e. if $ \rm{rank}(\mathrm{A}) = n$.
 
 This can be seen as follows: assume that $\mathrm{x}$ and $\mathrm{x}' \neq \mathrm{x}$ are two different solutions. Then $\mathrm{A}\mathrm{x}=\mathrm{A}\mathrm{x}’$ or $\mathrm{A}(\mathrm{x}-\mathrm{x}')=0$. But this can only be the case if some of the column vectors of $\mathrm{A}$ are linear dependent, which contradicts the assumption of full column rank.
 
 (determined)=
 ## Determined, overdetermined and underdetermined systems
 
-A system of equations $\mathrm{y}=\mathrm{A}\mathrm{x}$ with $\text{rank}(\mathrm{A}) =m=n$ is consistent and has a unique solution: $\hat{\mathrm{x}} = \mathrm{A}^{-1}\mathrm{y}$. Such a system is called *determined*.
+A system of equations $\mathrm{y}=\mathrm{A}\mathrm{x}$ with $\rm{rank}(\mathrm{A}) =m=n$ is consistent and has a unique solution: $\hat{\mathrm{x}} = \mathrm{A}^{-1}\mathrm{y}$. Such a system is called *determined*.
 
-A system is *underdetermined* if $\text{rank}(\mathrm{A})  < n$, i.e. if it does not have a unique solution.
+A system is *underdetermined* if $\rm{rank}(\mathrm{A})  < n$, i.e. if it does not have a unique solution.
 
-A system is *overdetermined* if $\text{rank}(\mathrm{A})  < m$, i.e. the system may or may not be consistent.
+A system is *overdetermined* if $\rm{rank}(\mathrm{A})  < m$, i.e. the system may or may not be consistent.
 
 (redundancy)=
 ## Redundancy
 
-The redundancy of a system of equations is equal to $m - \text{rank}(\mathrm{A})$.
+The redundancy of a system of equations is equal to $m - \rm{rank}(\mathrm{A})$.
 
-If we restrict ourselves to systems of observation equations that are of full column rank: $\text{rank}(\mathrm{A}) = n $, the system can either be
+If we restrict ourselves to systems of observation equations that are of full column rank: $\rm{rank}(\mathrm{A}) = n $, the system can either be
 
-*Determined systems*: $\text{rank}(\mathrm{A}) =n =m$, the redundancy is equal to 0
+*Determined systems*: $\rm{rank}(\mathrm{A}) =n =m$, the redundancy is equal to 0
 
-*Overdetermined systems*: $\text{rank}(\mathrm{A}) =n < m$, the redundancy is equal to $m-n>0$
+*Overdetermined systems*: $\rm{rank}(\mathrm{A}) =n < m$, the redundancy is equal to $m-n>0$
 
 
 
