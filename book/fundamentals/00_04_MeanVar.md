@@ -51,3 +51,13 @@ Note that here we divide by $m-1$ instead of $m$. The reason is that otherwise y
 
 The standard deviation $\sigma_X$ of random variable $X$ is given by the square root of its variance.
 
+## Difference between Mean, Median and Mode
+There is sometimes confusion about the Mean, especially in datasets of values that are not symmetrically distributed. Moreover, in some cases it may be more useful to mention the Median, while in other cases Mode is also quite meaningful. Here is a definition of these terms:
+Mean: Adding all values in a dataset and divide by the total number of values in the set
+Median: First, arrange the dataset from the lowest to the highest value. If the data set contains an odd number of values, the median is the middle value. If the data set has an even number of values, the median is the average of the two middle values.
+Mode: If the distribution of the data is presented in a histogram or a distribution function, the Mode is the value where the top of the histogram or distribution function lies, i.e. it is the value that occurs most in the dataset.
+
+Here is an example considering the following dataset of integer values in arbitrary order: [6, 6, 3, 7, 5, 2, 6, 3, 4].
+Mean: (6+6+3+7+5+2+6+3+4) / 9 = 4.67.
+Median: In ascending order: [2, 3, 3, 4, 5, 6, 6, 6, 7]. The value in the middle, which is the Median, is 5.
+Mode: The value 6 appears three times, which is the most of all other values. Hence, the Mode is 6.
