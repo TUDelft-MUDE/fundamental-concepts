@@ -9,7 +9,7 @@ $\newcommand{\dderAt}[3]{\frac{\mathrm{d} #1}{\mathrm{d} #2}(#3)}$
 Taylor’s theorem can be used to approximate a function $f(x)$ with the so called $p$-th order Taylor polynomial:
 
 $$
-f(x) \approx f(x_0) + \dderAt{f}{x}{x_0}\cdot(x-x_0) + \frac{1}{2!}\dderAt{^2f}{x^2}{x_0}\cdot(x-x_0)^2  + \ldots + \frac{1}{p!} \dderAt{^pf}{x^p}{x_0}\cdot(x-x_0)^p = P_k(x)
+f(x) \approx f(x_0) + \dderAt{f}{x}{x_0}\cdot(x-x_0) + \frac{1}{2!}\dderAt{^2f}{x^2}{x_0}\cdot(x-x_0)^2  + \ldots + \frac{1}{p!} \dderAt{^pf}{x^p}{x_0}\cdot(x-x_0)^p = P_p(x)
 $$
 
 where $\dderAt{f}{x}{x_0}$ signifies the derivative of $f$ with respect to $x$ evaluated at $x_0$. For the Taylor approximation to be valid, it is required that the function $f: \mathbb{R}\mapsto \mathbb{R}$ is $p$-times differentiable at the point $x_0 \in \mathbb{R}$.
@@ -17,7 +17,7 @@ where $\dderAt{f}{x}{x_0}$ signifies the derivative of $f$ with respect to $x$ e
 The approximation error is equal to 
 
 $$
-R_p(x) = f(x)- P_k (x) 
+R_p(x) = f(x)- P_p (x) 
 $$
 
 and $R_p(x)$ is called the remainder term. In the vicinity of $x_0$ the error is of the order $O(x^{p+1})$ 
