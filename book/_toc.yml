@@ -17,4 +17,5 @@ chapters:
     title: Normal
   - file: fundamentals/prob_tables/chi2
     title: Chi-Squared
+- file: fundamentals/joint_marginal_conditional
 - file: fundamentals/eemc-stuff
